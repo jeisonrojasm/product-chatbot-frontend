@@ -1,0 +1,28 @@
+.chat {
+  flex: 1;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--color1);
+  color: var(--color3);
+  font-family: var(--font-main);
+  width: 95%;
+  border: solid 1px var(--color2);
+  margin: 1rem 0;
+  border-radius: 1rem;
+  padding: 2rem;
+  height: 100vh;
+}
+
+@media (min-width: 768px) {
+  .chat {
+    width: 80%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .chat {
+    width: 60%;
+  }
+}
