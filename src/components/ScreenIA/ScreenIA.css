@@ -18,3 +18,9 @@
   color: var(--color3);
   font-family: var(--font-main);
 }
+
+.screen-ia__loading {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
