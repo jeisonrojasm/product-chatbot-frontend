@@ -1,5 +1,9 @@
 # Product Chatbot
 
+ReactJS frontend for interacting with an AI chatbot backend. Built with TypeScript and Vite, it provides a clean UI to send user enquiries, display LLM responses, and test tool-calling workflows. Includes Docker setup for easy development and deployment.
+
+> ⚠️ **Note: The frontend requires the [*product-chatbot-backend*](https://github.com/jeisonrojasm/product-chatbot-backend) application to be running in order to make API requests.**
+
 ## 🛠️ Built with
 
 - ReactJS
@@ -74,16 +78,14 @@ Each module in `views/` and `components/` follows a file separation pattern to m
 | `*Types.ts`       | Typing of component props, states, and structures             |
 | `*Functions.ts`   | Module-specific auxiliary functions                           |
 
-## 🚀 Execute
+## 🚀 Run
 
 ### 1. **`.env` file required**
 
-The `.env` file contains sensitive variables required to run the project (such as credentials, tokens, and service URLs).
-For security reasons, **it is not included in the repository**.
+Normally, the `.env` file **should not be included** in a public repository, as it may contain sensitive configuration values.
+However, for demonstration and evaluation purposes —and because this is not a production project— the `.env` file is included in the repository so anyone can run the project without additional setup.
 
-> 🔐 **In the email you received, you will find the `.env` file required for the frontend to run correctly.**
-
-Once you have the `.env` file, place it in the root of the project.
+You will find the `.env` file already placed in the root of the project.
 
 ### 2. Setting up the development environment with Docker
 
@@ -111,6 +113,9 @@ Once the previous steps are completed:
 - The frontend will be running at `http://localhost:5173`.
 - You will be able to use the UI to make petitions to backend app.
 
-## 👨‍💻 Autor
+## 👨‍💻 Author
 
-Developed by **Jeison Rojas** - *Fullstack developer* - [jeisonrojasm](https://github.com/jeisonrojasm)
+Developed by **Jeison Rojas Mora** - *Fullstack Developer*
+
+- [https://github.com/jeisonrojasm](https://github.com/jeisonrojasm)
+- [https://www.linkedin.com/in/jeison-rojas-mora/](https://www.linkedin.com/in/jeison-rojas-mora/)
